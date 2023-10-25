@@ -3,14 +3,27 @@
     padding: 0;
 }
 
-.container{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 1px solid black;
-    height: 20vh;
-    width: 13vw;
-    background-color: red;
-    position: absolute;
-
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: #7d7272;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.left a{
+    margin-left: 8px ;
+    text-decoration: none;
+    color: black;
+} 
+.right ul {
+    display: flex;
+    list-style: none;
+}
+.right a{
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
